@@ -1,0 +1,26 @@
+dil-ogreniyorum/
+│
+├─ frontend/                  # React / Next.js site dosyaları
+│   ├─ pages/
+│   │   ├─ index.js           # Ana sayfa
+│   │   ├─ login.js           # Giriş / Kayıt
+│   │   ├─ dashboard.js       # Kullanıcı paneli
+│   │   ├─ lessons.js         # Dersler sayfası
+│   │   ├─ dialog.js          # AI yazılı / sesli diyalog
+│   │   └─ profile.js         # Profil ve sertifikalar
+│   ├─ components/
+│   │   ├─ Navbar.js
+│   │   ├─ LessonCard.js
+│   │   ├─ DialogBox.js
+│   │   └─ CertificateCard.js
+│   ├─ styles/
+│   │   └─ globals.css
+│   └─ public/
+│       ├─ logo.png
+│       └─ placeholder.png   # AI görseller için
+│
+├─ backend/
+│   └─ ai-dialog.js           # AI ile yazılı ve sesli diyaloğu yöneten dosya
+│
+├─ README.md                  # Adım adım GitHub & Vercel deploy rehberi
+└─ package.json               # Proje bağımlılıkları
